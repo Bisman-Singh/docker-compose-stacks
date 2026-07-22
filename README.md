@@ -97,3 +97,5 @@ All stacks use `changeme` as the default password. See each stack's `.env.exampl
 - **Persistent data**: All stacks use named Docker volumes. Data survives `docker compose down` but is removed with `docker compose down -v`
 - **Combining stacks**: To run multiple stacks together, ensure there are no port conflicts and consider using a shared external network
 - **Resource limits**: The ELK stack has memory limits configured. Adjust them in `.env` if services are running out of memory
+
+<sub><sup>Originally developed and tested locally during learning. Later organized and pushed to GitHub for portfolio visibility.</sup></sub>
